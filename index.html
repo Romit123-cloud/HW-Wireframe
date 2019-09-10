@@ -15,6 +15,7 @@
     <p id="wins-text">Wins:</p>
     <p id="losses-text">Losses:</p>
     <p id="guess-text">Guesses left:</p>
+    <p id="guess-counter-text">Your guesses so far:</p>
 
     
   </div>
@@ -27,8 +28,8 @@
     var wins = 0;
     var losses = 0;
     var ties = 0;
-    var numGueses: 9;
-    var guessChoices:[]; 
+    var numGueses = 9;
+    var guessChoices = []; 
 
     // Create variables that hold references to the places in the HTML where we want to display things.
     var directionsText = document.getElementById("directions-text");
